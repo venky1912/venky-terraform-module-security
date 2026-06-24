@@ -1,11 +1,7 @@
-output "eks_kms_key_arn" {
-  value = module.security.eks_kms_key_arn
+output "kms_key_arns" {
+  value = module.security.kms_key_arns
 }
 
-output "eks_cluster_security_group_id" {
-  value = module.security.eks_cluster_security_group_id
-}
-
-output "eks_node_security_group_id" {
-  value = module.security.eks_node_security_group_id
+output "security_group_ids" {
+  value = module.security.security_group_ids
 }
