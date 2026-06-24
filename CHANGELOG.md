@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2](https://github.com/venky1912/venky-terraform-module-security/compare/v1.0.1...v1.0.2) (2026-06-24)
+
+
+### Bug Fixes
+
+* add explicit enable_key_rotation to example RDS key (CKV_AWS_7) ([#6](https://github.com/venky1912/venky-terraform-module-security/issues/6)) ([f7f9538](https://github.com/venky1912/venky-terraform-module-security/commit/f7f953830832f53ea732e600d048c5e4faa1a27e))
+* skip AWS-0104 in security scan (intentional egress rule in example) ([#4](https://github.com/venky1912/venky-terraform-module-security/issues/4)) ([48403fa](https://github.com/venky1912/venky-terraform-module-security/commit/48403fadce0b5e865b06356d8b5b9f98bb3376f3))
+
 ## [1.0.1](https://github.com/venky1912/venky-terraform-module-security/compare/v1.0.0...v1.0.1) (2026-06-24)
 
 
