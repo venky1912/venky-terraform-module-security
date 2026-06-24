@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/venky1912/venky-terraform-module-security/compare/v1.0.0...v1.0.1) (2026-06-24)
+
+
+### Bug Fixes
+
+* pin provider versions to supported range ([#2](https://github.com/venky1912/venky-terraform-module-security/issues/2)) ([dc9f541](https://github.com/venky1912/venky-terraform-module-security/commit/dc9f5413a6765f8dd4508d12564088309ee7767f))
+
 ## [1.0.0](https://github.com/venky1912/venky-terraform-module-security/compare/v0.1.0...v1.0.0) (2026-06-24)
 
 
