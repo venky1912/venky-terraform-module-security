@@ -1,0 +1,4 @@
+# AWS-0104: Unrestricted egress - intentional for security group module
+# Users configure their own egress rules; the example demonstrates open egress
+# which is a valid and common pattern for EKS node groups.
+AVD-AWS-0104
