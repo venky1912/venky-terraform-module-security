@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.0.0](https://github.com/venky1912/venky-terraform-module-security/compare/v0.1.0...v1.0.0) (2026-06-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* Module interface completely redesigned.
+    - Generic KMS keys with configurable policies
+    - Generic security groups with flexible ingress/egress rules
+    - Supports any service (EKS, RDS, EC2, ALB, etc.)
+
+### Features
+
+* refactor to generic security module for any workload ([f81617a](https://github.com/venky1912/venky-terraform-module-security/commit/f81617a0325107f6eef75055c0bad3b9881dae97))
+
 ## [0.1.0] - 2026-06-24
 
 ### Added
