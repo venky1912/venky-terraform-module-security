@@ -11,6 +11,7 @@ module "security" {
     rds = {
       description             = "RDS encryption"
       deletion_window_in_days = 7
+      enable_key_rotation     = true
     }
   }
 
